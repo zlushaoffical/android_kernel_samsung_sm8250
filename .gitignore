@@ -1,0 +1,39 @@
+# .gitignore for kernel build
+
+# Build output
+*.o
+*.a
+*.so
+*.so.*
+*.dylib
+.tmp_versions/
+*.mod.c
+*.mod
+*.cmd
+.cache.mk
+
+# Build directories
+out/
+build/
+out_*
+
+# IDE and editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+.clang_complete
+tags
+TAGS
+
+# Temporary files
+*.orig
+*.rej
+*.patch
+
+# Binary files
+*.bin
+*.img
+*.ko
